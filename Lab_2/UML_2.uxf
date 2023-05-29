@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>160</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+
+--
+connect()
+table()
+insert()
+read()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>160</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Backend
+--
+str co2_data_file
+Database database
+Graph graph
+--
+use_database()
+scrape()
+graph_pie_chart()
+extract()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>160</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Graph
+--
+list data
+--
+pie_chart()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>160</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Frontend
+--
+tkinter.Tk() master
+Backend backend
+--
+connect()
+table()
+insert()
+read()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

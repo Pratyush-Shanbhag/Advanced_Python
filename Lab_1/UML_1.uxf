@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+str x_data_file
+str y_data_file
+--
+connect()
+table()
+insert()
+delete()
+update()
+read()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Frontend
+--
+float slope
+--
+add_buttons()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes> Backend
+--
+str co2_data_file
+str temp_data_file
+--
+use_database()
+graph_plot()
+graph_bar()
+calc_lin_reg()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Graph
+--
+list x_list
+list y_list
+--
+plot()
+bar()
+lin_reg()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

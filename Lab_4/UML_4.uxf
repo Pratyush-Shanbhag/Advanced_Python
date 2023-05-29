@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>390</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+
+--
+connect()
+table()
+insert()
+read(str query)
+scrape_and_insert()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>170</y>
+      <w>220</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Graph
+--
+
+--
+plot(str country, list float data)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>170</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Backend
+--
+Client_Socket csocket
+Graph graph
+--
+get_countries()
+graph_plot(str country)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>170</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Frontend
+--
+Backend backend
+--
+add_pull_down()
+select()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>390</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Server
+--
+Database database
+--
+connect()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>390</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Client_Socket
+--
+
+--
+get_countries()
+get_country_data(str country)
+connect(str query)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
